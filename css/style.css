@@ -68,7 +68,7 @@ a:focus {
 }
 
 .donate-btn:hover {
-  color: #777777;
+  color: white;
   border: 2px solid #fdbe33;
   box-shadow: inset 0 0 0 0 #fdbe33;
 }
@@ -926,11 +926,20 @@ a:focus {
 /*******************************/
 /********** Donate as Per Wish CSS *********/
 /*******************************/
+
 .donate-per-wish {
-  background-image: url("../img/donate-free.png");
+  background-color: #20212b;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.donate-per-wish-img img {
+  width: 150px;
+}
+
+.donate-sub-title {
+  color: #c7c7c7;
 }
 
 /*******************************/
