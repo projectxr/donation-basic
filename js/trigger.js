@@ -1,13 +1,7 @@
+const about = document.getElementById('about');
+
 window.addEventListener("resize", () => {
-  if (window.innerWidth) {
-    window.location.reload();
-  }
-
-  if (window.innerWidth >= 668) {
-    window.location.reload();
-  }
-
-  if (window.innerWidth >= 992) {
-    window.location.reload();
+  if (about.clientWidth > 600 && about.clientWidth < 900) {
+    location.reload();
   }
 });
