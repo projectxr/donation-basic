@@ -1524,6 +1524,7 @@ a:focus {
   height: 500px;
   transition: all 0.2s;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: default;
 }
 
 .blog-item:hover {
