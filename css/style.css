@@ -1508,7 +1508,7 @@ a:focus {
 }
 
 .blog .blog-item:hover img {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 .blog .blog-img {
@@ -2233,5 +2233,11 @@ a:focus {
   .footer .copyright .col-md-6:last-child p {
     margin: 5px 0;
     text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog .blog-item:hover img {
+    transform: scale(1.2);
   }
 }
