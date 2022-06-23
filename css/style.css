@@ -2224,7 +2224,7 @@ a:focus {
 }
 
 .head-office {
-  margin: auto;
+  /* margin: auto; */
 }
 
 @media (max-width: 767.98px) {
