@@ -362,9 +362,9 @@ a:focus {
   }
 
   .navbar.nav-sticky {
-    padding: 25px 60px;
     background: #20212b !important;
     border-bottom: none;
+    padding: 25px 60px;
   }
 
   .page .navbar {
@@ -380,7 +380,7 @@ a:focus {
 
 @media (max-width: 991.98px) {
   .navbar {
-    padding: 15px;
+    padding: 25px 0px;
     background: #20212b !important;
   }
 
