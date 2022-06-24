@@ -795,6 +795,7 @@ a:focus {
   position: relative;
   width: 100%;
   padding: 45px 0 15px 0;
+  background-color: #f9f9f9;
 }
 
 .service .service-item {
@@ -1255,26 +1256,35 @@ a:focus {
 }
 
 .testimonial .testimonial-profile {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 2px solid #fdbe33;
+}
+
+.testimonial-name {
+  margin: 20px 0px;
 }
 
 .testimonial .testimonial-profile img {
-  width: 80px;
-  margin-bottom: -1px;
+  width: 100%;
+  height: 100%;
 }
 
-.testimonial .testimonial-name {
-  padding-left: 15px;
-  width: calc(100% - 95px);
+.testimonial-text {
+  text-align: center;
 }
 
-.testimonial .testimonial-name h3 {
+.testimonial-text h3 {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-top: 30px;
 }
 
 .testimonial .testimonial-name p {
